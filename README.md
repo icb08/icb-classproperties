@@ -1,2 +1,24 @@
-# icb-classproperties
-This python library provides classes for creating 'class properties' (descriptors that emulate property-like behaviours for class attributes instead of instance attributes).
+# ICB - Class Properties
+- **Author:** [Isaac Bell](https://github.com/icb08)
+- **Version:** 1.0
+
+---
+
+## Description
+
+This library provides `classproperty` objects for creating properties that operate on class attributes instead of instance attributes.
+
+Class properties emulate the behaviours of python's built-in `property`, supporting getters, setters and deleters, providing controlled access to class attributes using a similar interface to `property`.
+
+---
+
+## Requirements
+
+- **Python 3.6+**
+
+---
+
+## Links
+
+- **Documentation:** https://github.com/icb08/icb-classproperties/wiki
+- **Issues:** https://github.com/icb08/icb-classproperties/issues
