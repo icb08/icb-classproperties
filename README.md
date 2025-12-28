@@ -23,3 +23,4 @@ Class properties emulate the behaviours of python's built-in `property`, support
 - **Source:** https://github.com/icb08/classproperties
 - **Documentation:** https://github.com/icb08/classproperties/wiki
 - **Issues:** https://github.com/icb08/classproperties/issues
+- **Changelog:** https://github.com/icb08/classproperties/blob/main/CHANGELOG.md
