@@ -1,36 +1,27 @@
 # Change Log
 
-All new releases will be documented here.
+All major, minor and patch releases will be documented here, with details on added, removed, changed and fixed features.
 
-To update your installed packages:
-
-<details open>
-<summary><strong>Windows</strong></summary>
-
-```bash
-py -m pip install clsproperties --upgrade
-```
-
-</details>
-
-<details>
-<summary><strong>Unix / macOS</strong></summary>
-
-```bash
-python3 -m pip install clsproperties --upgrade
-```
-
-</details>
-
+> [!TIP]
+> If you have an older version of the library and want to update it, run the following command in the console:
+> 
+> <details open><summary>Windows</summary>
+> 
+> ```bash
+> py -m pip install clsproperties --upgrade
+> ```
+> </details>
+> 
+> <details><summary>Unix / macOS</summary>
+> 
+> ```bash
+> python3 -m pip install clsproperties --upgrade
+> ```
+> </details>
 
 ---
 
-## *1.0.0*
+## *[1.0.0] - 29/12/2025* <a name="1-0-0"></a>
 
 ### Added
-
-### Changed
-
-### Removed
-
-### Fixed
+- 
