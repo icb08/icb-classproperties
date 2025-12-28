@@ -1,6 +1,7 @@
 # ICB - Class Properties
 - **Author:** [Isaac Bell](https://github.com/icb08)
-- **Version:** 1.0.0
+- **Version:** [1.0.0](https://github.com/icb08/classproperties/blob/main/CHANGELOG.md#[1.0.0]---28/12/2025)
+- **License:** [MIT](https://github.com/icb08/classproperties/blob/main/LICENSE.txt)
 
 ---
 
