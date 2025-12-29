@@ -3,7 +3,7 @@
 All major, minor and patch releases will be documented here, with details on added, removed, changed and fixed features.
 
 > [!TIP]
-> If you have an older version of the library and want to update it, run the following command in the console:
+> If you have an older version of the library and want to update it, run the following command in the python console:
 > 
 > <details open><summary>Windows</summary>
 > 
