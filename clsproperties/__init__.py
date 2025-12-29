@@ -8,21 +8,13 @@ This library provides `classproperty` objects for controlled access to class att
 
 The `classproperty` class aims to emulate the behaviours of python's built-in `property` class, providing controlled access to class attributes instead of instance attributes. Like `property` objects, `classproperty` objects support use both as a decorator and as a callable. Like `property` objects, `classproperty` objects are descriptors, supporting getter, setter and deleter functions. 
 
----
-
-## Usage
-
-For detailed information on the usage of this library, view the full documentation [here](https://github.com/icb08/clsproperties/wiki).
-
----
-
 ## Links
 
-- **Source:** https://github.com/icb08/clsproperties
-- **Documentation:** https://github.com/icb08/clsproperties/wiki
-- **Issues:** https://github.com/icb08/clsproperties/issues
-- **Changelog:** https://github.com/icb08/clsproperties/blob/main/CHANGELOG.md
-- **License:** https://github.com/icb08/clsproperties/blob/main/LICENSE
+- **[Source Code](https://github.com/icb08/clsproperties)**
+- **[Issues](https://github.com/icb08/clsproperties/issues)**
+- **[Documentation](https://github.com/icb08/clsproperties/wiki/documentation)**
+- **[Changelog](https://github.com/icb08/clsproperties/wiki/changelog)**
+- **[License](https://github.com/icb08/clsproperties/blob/main/LICENSE)**
 """
 
 __author__ = "Isaac Bell"
