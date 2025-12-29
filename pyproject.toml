@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "classproperties"
+name = "clsproperties"
 authors = [ { name = "Isaac Bell" } ]
 dynamic = ["version"]
 description = "Provides classproperty objects for controlled access to class attributes."
@@ -14,10 +14,18 @@ license-files = [ "LICENSE.txt" ]
 
 keywords = [
     "python",
+    "python3",
+    "python-3",
+    "python-library",
+    "python-package",
+    "python-module",
+    "pypi",
     "class",
     "metaclass",
     "attribute",
+    "attributes",
     "classattribute",
+    "classattributes",
     "property",
     "properties",
     "classproperty",
@@ -50,11 +58,13 @@ classifiers = [
 ]
 
 [project.urls]
-Source = "https://github.com/icb08/classproperties"
-Documentation = "https://github.com/icb08/classproperties/wiki"
-Issues = "https://github.com/icb08/classproperties/issues"
+Source = "https://github.com/icb08/clsproperties"
+Documentation = "https://github.com/icb08/clsproperties/wiki"
+Issues = "https://github.com/icb08/clsproperties/issues"
+Changelog = "https://github.com/icb08/clsproperties/blob/main/CHANGELOG.md"
+License = "https://github.com/icb08/clsproperties/blob/main/LICENSE
 
 [tool.hatch.version]
-path = "classproperties/__init__.py"
+path = "clsproperties/__init__.py"
 
 # [project.optional-dependencies] \n colors = ["colorama>=0.4"]
