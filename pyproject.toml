@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "classproperties"
 authors = [ { name = "Isaac Bell" } ]
 dynamic = ["version"]
-description = "Properties for class attributes."
+description = "Provides classproperty objects for controlled access to class attributes."
 readme = "README.md"
 requires-python = ">=3.6"
 license = "MIT"
