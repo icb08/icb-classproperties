@@ -1,6 +1,6 @@
 # Importation
 
-Once installed, to use this library, it must be imported. By importing the library, you put the objects provided by the library into your script's namespace dictionary so they can be accessed in your script. This library provides just 2 objects: the `classproperty` and `ClassPropertyMeta` classes (see the [Classes Reference](../references/classes.md)). There are 3 ways to import the library: Standard, Specific or Wildcard Importation.
+Once installed, to use this library, it must be imported. By importing the library, you put the objects provided by the library into your script's namespace dictionary so they can be accessed in your script. This library provides just 2 objects: the `classproperty` and `ClassPropertyMeta` classes (see the [Classes Reference](../reference/classes/index.md)). There are 3 ways to import the library: Standard, Specific or Wildcard Importation.
 
 See more information on importing Python Modules [here](https://docs.python.org/3/tutorial/modules.html).
 
@@ -123,4 +123,4 @@ class ExampleClass(metaclass=ClassPropertyMeta):
 > 
 > It is generally not recommended to do wildcard imports, unless you are aware of everything they import, as it can clutter your script's namespace and accidentally overwrite existing variables or functions.
 > 
-> In this case, it should be fine, as the only objects imported are the `classproperty` and `ClassPropertyMeta` classes (see the [Classes Reference](../references/classes.md)).
+> In this case, it should be fine, as the only objects imported are the `classproperty` and `ClassPropertyMeta` classes (see the [Classes Reference](../reference/classes.md)).

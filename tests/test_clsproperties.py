@@ -1,0 +1,2 @@
+import pytest
+from clsproperties import classproperty, ClassPropertyMeta

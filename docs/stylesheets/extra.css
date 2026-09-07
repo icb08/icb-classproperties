@@ -18,6 +18,8 @@
 
   --md-primary-fg-color: rgb(14, 14, 14);
   --md-primary-bg-color: rgb(240, 240, 240);
+
+  --md-footer-bg-color--dark: rgba(240,240,240,67)
 }
 
 :root >* {
@@ -26,4 +28,10 @@
 
   --md-accent-fg-color: rgb(0, 35, 102);
   --md-typeset-a-color: rgb(65, 105, 225);
+
+  --md-footer-bg-color: var(--md-default-bg-color);
+  --md-footer-bg-color--dark: var(--md-default-bg-color);
+  --md-footer-fg-color: var(--md-default-fg-color);
+  --md-footer-fg-color--light: var(--md-default-fg-color--lighter);
+  --md-footer-fg-color--lighter: var(--md-default-fg-color);
 }

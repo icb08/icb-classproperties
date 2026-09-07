@@ -7,21 +7,26 @@ nav:
   - Home: index.md
   - Getting Started: documentation.md
   - Guides:
+    - guides/index.md
     - Installation: guides/installation.md
     - Importation: guides/importation.md
-    - Implementation using Decorators: guides/implementation-decorator.md
-    - Implementation using Callables: guides/implementation-callable.md
+    - Implementation: guides/implementation.md
   - Examples:
-    - Basic Example (Decorator): examples/decorator.md
-    - Advanced Example (Callable): examples/callable.md
+    - examples/index.md
+    - Examples using Decorators: examples/decorator.md
+    - Examples using Callables: examples/callable.md
   - Reference:
-    - Classes: reference/classes.md
+    - reference/index.md
+    - Classes:
+      - reference/classes/index.md
+      - classproperty: reference/classes/classproperty.md
+      - ClassPropertyMeta: reference/classes/classpropertymeta.md
 
 theme: 
   name: material
   icon:
     logo: fontawesome/solid/book
-    repo: octicons/mark-github-16
+    repo: fontawesome/brands/github
   palette:
     - scheme: default
       media: "(prefers-color-scheme: light)"
@@ -33,22 +38,52 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Light Mode
-
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.path
+    - navigation.instant.preview
+    - navigation.top
+    - navigation.footer
+    - toc.integrate
+    - search.suggest
+    - search.share
+    - content.code.copy
 
 plugins:
   - search
   - mike
+  - include-markdown:
+      opening_tag: "{!"
+      closing_tag: "!}"
+      start: <!--start-->
+      end: <!--end-->
   - gh-admonitions
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: datetime
+
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-  - markdown_include.include:
-      base_path: .
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
 
 extra:
   version:
     provider: mike
+  social:
+    - name: icb08 on GitHub
+      icon: fontawesome/brands/github
+      link: https://github.com/icb08
+    - name: icb08 on PyPI
+      icon: fontawesome/brands/python
+      link: https://pypi.org/user/icb.08/
 
 extra_css: 
   - stylesheets/extra.css

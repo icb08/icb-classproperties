@@ -1,4 +1,4 @@
-# clsproperties
+# [clsproperties](https://icb08.github.io/clsproperties/)
 - **Version:** [1.0.0](https://github.com/icb08/clsproperties/releases/tag/v1.0.0) ([Python 3.6+](https://www.python.org/downloads/))
 - **Author:** [Isaac Bell](https://github.com/icb08)
 - **License:** [MIT](https://github.com/icb08/clsproperties/blob/main/LICENSE)

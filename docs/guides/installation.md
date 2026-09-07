@@ -21,21 +21,17 @@ See more information on installing Python Packages [here](https://packaging.pyth
 > - **Python 3.6+**
 > > To check your Python version, run the following command in the command line:
 > > 
-> > <details open><summary>Windows</summary>
+> > === "Windows"
 > > 
-> > ```
-> > py --version
-> > ```
+> >     ```
+> >     py --version
+> >     ```
 > > 
-> > </details>
-> > 
-> > <details><summary>Unix / macOS</summary>
-> > 
-> > ```
-> > python3 --version
-> > ```
-> > 
-> > </details>
+> > === "Unix / macOS"
+> >     
+> >     ```
+> >     python3 --version
+> >     ```
 > > 
 > > This library requires Python version 3.6 or later. If you have an older version of Python and want to update it, install a later version [here](https://www.python.org/downloads/).
 
@@ -45,21 +41,17 @@ See more information on installing Python Packages [here](https://packaging.pyth
 
 Once you have all the requirements installed, to install this library, run the following command in the command line:
 
-<details open><summary>Windows</summary>
+=== "Windows"
+    
+    ```
+    py -m pip install clsproperties
+    ```
 
-```
-py -m pip install clsproperties
-```
-
-</details>
-
-<details><summary>Unix / macOS</summary>
-
-```
-python3 -m pip install clsproperties
-```
-
-</details>
+=== "Unix / macOS"
+    
+    ```
+    python3 -m pip install clsproperties
+    ```
 
 ---
 
@@ -67,18 +59,14 @@ python3 -m pip install clsproperties
 
 To update an older version of this library, run the following command in the command line:
 
-<details open><summary>Windows</summary>
+=== "Windows"
+    
+    ```
+    py -m pip install clsproperties --upgrade
+    ```
 
-```
-py -m pip install clsproperties --upgrade
-```
-
-</details>
-
-<details><summary>Unix / macOS</summary>
-
-```
-python3 -m pip install clsproperties --upgrade
-```
-
-</details>
+=== "Unix / macOS"
+    
+    ```
+    python3 -m pip install clsproperties --upgrade
+    ```

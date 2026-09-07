@@ -51,7 +51,7 @@ class classproperty:
 
     This class defines a `classproperty` descriptor, supporting getter, setter and deleter functions, that aims to emulate the behaviours of Python's built-in `property` class, providing controlled access to class attributes instead of instance attributes. Like `property` objects, `classproperty` objects support use both as a decorator and as a callable.
 
-    For detailed information on usage and implementation, view the [Documentation](https://icb08.github.io/clsproperties/v1.0.0/reference/classes.md#classproperty).
+    For detailed information on usage and implementation, view the [Documentation](https://icb08.github.io/clsproperties/v1.0.0/reference/classes/classproperty/).
 
     ---
 
@@ -80,7 +80,7 @@ class classproperty:
 
         This method instantiates a `classproperty` descriptor, defining the getter, setter and deleter functions.
 
-        For detailed information on usage and implementation, view the [Documentation](https://icb08.github.io/clsproperties/v1.0.0/reference/classes.md#classproperty).
+        For detailed information on usage and implementation, view the [Documentation](https://icb08.github.io/clsproperties/v1.0.0/reference/classes/classproperty/).
         
         ---
 
@@ -183,7 +183,7 @@ class ClassPropertyMeta(type):
 
     This class defines a metaclass, that enables full functionality of `classproperty` objects defined in classes, whose metaclass is `ClassPropertyMeta`. This metaclass intercepts class attribute assignment and deletion operations of `classproperty` objects, and executes the corresponding setter and deleter functions of the `classproperty` objects.
     
-    For detailed information on usage and implementation, view the [Documentation](https://icb08.github.io/clsproperties/v1.0.0/reference/classes.md#classpropertymeta).
+    For detailed information on usage and implementation, view the [Documentation](https://icb08.github.io/clsproperties/v1.0.0/reference/classes/classpropertymeta/).
 
     ---
 

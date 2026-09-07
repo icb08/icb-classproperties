@@ -23,7 +23,7 @@ keywords = [
     "pypi-libary",
     "pypi-package",
     "class",
-    "classes"
+    "classes",
     "metaclass",
     "metaclasses",
     "attribute",
@@ -84,10 +84,10 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://icb08.github.com/clsproperties/v1.0.0/"
-Documentation = "https://icb08.github.io/clsproperties/v1.0.0/documentation"
-Repository = "https://github.com/icb08/clsproperties/tree/v1.0.0"
-Release Notes = "https://github.com/icb08/clsproperties/releases/tag/v1.0.0"
+Homepage = "https://icb08.github.io/clsproperties/"
+Documentation = "https://icb08.github.io/clsproperties/v1.0.0/documentation/"
+Repository = "https://github.com/icb08/clsproperties"
+ReleaseNotes = "https://github.com/icb08/clsproperties/releases"
 Issues = "https://github.com/icb08/clsproperties/issues"
 
 [build-system]

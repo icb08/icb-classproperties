@@ -9,14 +9,14 @@ on:
 # Defines the Workflow Jobs (execution processes) that build the Python Library into a Distribution Package and then publish that Distribution Package to PyPI.
 jobs:
 
-  # Job 1 - Builds the Python Library (Source Code and Metadata Files in the GitHub Repository) into a Distribution Package (a Source Distribution Package (.tar.gz) and a Wheel Distribution Package (.whl)).
+  # Job 1 - Builds the Python Library (Source Code and Metadata / Configuration Files in the GitHub Repository Commit linked to the Git Tag of the GitHub Release that triggered the Workflow) into a Distribution Package (a Source Distribution Package (.tar.gz) and a Wheel Distribution Package (.whl)).
   build:
     # Creates a Linux Runner (a new Virtual Machine with a Linux OS and some basic programming languages installed) and opens the Runner Workspace (completely empty directory) to complete Job 1 in.
     runs-on: ubuntu-latest
 
     # Defines the Steps (individual processes) to complete Job 1.
     steps:
-      # Creates a Shallow Clone of the latest Commit of the GitHub Repository in the Runner Workspace, by initialising a Git Repository in the Runner Workspace (with Remote Origin set to the GitHub Repository) and fetching and checking out (downloading and extracting) the latest GitHub Repository Commit to the Runner Workspace so the Runner can access the files.
+      # Creates a Shallow Clone of the GitHub Repository Commit (linked to the Git Tag of the GitHub Release that triggered the Workflow) in the Runner Workspace, by initialising a Git Repository in the Runner Workspace (with Remote Origin set to the GitHub Repository) and fetching (downloading into the .git/ directory) and checking out (extracting into the Runner Workspace) the specific Commit so the Runner can access the GitHub Repository files.
       - name: Checkout GitHub Repository
         uses: actions/checkout@v7
 
@@ -48,7 +48,7 @@ jobs:
     # Creates a Linux Runner and opens the Runner Workspace to complete Job 2 in.
     runs-on: ubuntu-latest
 
-    # Grants the Workflow Permission to write to the GitHub Release and to request the OIDC (OpenID Connect) Security Token from GitHub to be able to upload to PyPI.
+    # Grants the Job permission to write to the GitHub Release and to request the OIDC (OpenID Connect) Security Token from GitHub to be able to upload to PyPI.
     permissions:
       contents: write
       id-token: write
